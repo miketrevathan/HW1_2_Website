@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(170, 160, 160);
+}
+
+.logo{
+    float:left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.logo a:hover{
+    cursor: pointer;
+}
+
+.navigation-bar{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+.navigation-bar ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navigation-bar li{
+    list-style-type: none;
+    padding: 25px;
+    display: inline;
+}
+
+.navigation-bar li a{
+    color: white;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 5px 15px;
+    }
+
+.navigation-bar button{
+    background: rgb(30, 125, 163);
+    color: white;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    border: none;
+    padding: 8px;
+    margin-left: 6%;
+}
+
+.navigation-bar button:hover{
+    background-color: rgb(24, 99, 128);
+}
+
+.welcome{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+input{
+    padding: 0 5px;
+    width: 90px;
+    
+}

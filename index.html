@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+    <title>Mike Trevathan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    </head>
+   
+    <body>
+        
+                
+        <div class="navigation-bar">
+            <img class="logo" src="logo.jpg" alt="logo">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Projects</a></li>
+                <a class="cta" href="#"><button>Contact</button></a>
+            </ul>
+            
+        </div>
+                          
+       <div class="welcome">
+            WELCOME
+       </div>
+       <br>
+
+
+       <button onclick="mitQuiz()">Take MIT IQ Quiz</button>
+        
+       <br>
+        
+        <p><strong>MIT Experience:</strong></p>
+
+            <select id="selectid" name="selectname" onchange="selVal()">
+                <option value="Program">Program</option>
+                <option value="MIT Classes">MIT Classes</option>
+                <option value="Company">Company</option>
+                <option value="Job">Job</option>
+            </select>
+            <br>
+        <div><img id="x" src="sdm.JPG"></div>
+                
+        <br>
+        
+        
+    </body>   
+    <footer>
+        <br>
+        <strong>VISITOR's LOG:</strong>
+        <div id="myForm">
+                First name: <input type="text" id="fname"><br>
+                Last name: <input type="text" id="lname"><br>
+                Email: <input type="text" id="email"><br>
+            <button onclick="mform()">Submit</button>
+
+        </div>
+            
+    </footer>
+</html>
