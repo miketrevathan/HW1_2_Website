@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(170, 160, 160);
-}
+    }
 
 .logo{
     float:left;
@@ -69,4 +69,24 @@ input{
     padding: 0 5px;
     width: 90px;
     
+}
+#quiz {
+    padding: 0px 20px;
+    margin-left:25px;
+}
+
+#x {
+    margin-left: 20px;
+}
+
+footer {
+    margin-left: 25px;
+}
+
+#selectid {
+    margin-left:20px;
+}
+
+#mit{
+    margin-left:20px;
 }
