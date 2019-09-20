@@ -35,16 +35,16 @@ function selVal(){
     console.log(selV);
     switch(selV){
         case "MIT Classes":
-        document.getElementById("x").src="mitclass.jpg";
+        document.getElementById("x").src="mitclass.JPG";
         break;
         case "Program":
-        document.getElementById("x").src="sdm.jpg";
+        document.getElementById("x").src="sdm.JPG";
         break;
         case "Company":
-        document.getElementById("x").src="chevron.jpg";
+        document.getElementById("x").src="chevron.JPG";
         break;
         case "Job":
-        document.getElementById("x").src="drillship.jpg";
+        document.getElementById("x").src="drillship.JPG";
     }
     }
 
