@@ -52,5 +52,7 @@ function mform(){
     var FN = document.getElementById("fname").value;
     var LN = document.getElementById("lname").value;
     var EM = document.getElementById("email").value;
-    console.log(FN + LN+ EM);
-   }
+    var AR = [FN, LN, EM];
+    console.log(AR);
+    document.getElementById('thanks').innerText= "Thank you " + FN+ "!";
+}
